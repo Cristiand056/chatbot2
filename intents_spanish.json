@@ -1,0 +1,50 @@
+{
+    "intents":[
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Buenos días", "Buenas tardes"],
+            "responses": ["¡Hola!, ¿Como puedo ayudarte hoy?", "¡ buenas!, ¿Que necesitas?"]
+        },
+        {
+            "tag": "saludo2",
+            "patterns": ["Que tal", "Saludos", "Buenas"],
+            "responses": ["¡Hola!, ¿Como puedo ayudarte hoy?", "¡ buenas!, ¿Que necesitas?"]
+        },
+        {
+            "tag": "preguntas",
+            "patterns": ["¿Que productos tiene a la venta?", "necesito más información de este producto", "¿tienen promociones?", "¿Que hay disponible?"],
+            "responses": ["Claro puede consultar en https://www.wikipedia.org/"]
+        },
+        {
+            "tag": "envios",
+            "patterns": ["en que estado se encuentra mi pedido", "cuando llega mi pedido", "cuando puedo recoger mi producto"],
+            "responses": ["por supuesto rastreo del producto o pedidos aqui https://en.wikipedia.org/wiki/Main_Page"]
+        },
+        {
+            "tag": "asesores",
+            "patterns": ["necesito hablar con alguien", "quien atiende", "necesito asesoria", "necesito un asesor"],
+            "responses": ["por supuesto, espere en linea o llame al +57 1234567890 "]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["gracias", "Muchas gracias", "adiós", "hasta luego", "nos vemos", "Estamos hablando"],
+            "responses": ["¡Adiós!, vuelva pronto", "Un placer poder ayudarle", "¡Que tenga un buen día!"]
+        },
+        {
+            "tag": "horario",
+            "patterns": ["¿Cuando abren?", "tienen abierto", "a que horas cierran?", "aque dias tienen servicio", "Que horarios manejan", "abren a ", "tienen servicio"],
+            "responses": ["L-V de 5pm  a 8 pm y  Sábado 11 am a 10 pm"]
+        }, 
+        {
+            "tag": "problemas",
+            "patterns": ["No se grega nada en carrito de compras", "no acepta mi metodo de pago", "no se ve, el rastro de mi producto", "Ayuda", "Necesito Ayuda", "Problemas", "ayuda"],
+            "responses": ["Por favor contar a suppordummy@gmail.com o llamar al +57 1234567890, lo antes posible, para dar solución al problema"]
+        }, 
+        {
+            "tag": "pagos",
+            "patterns": ["Reciben tarjeta", "reciben nequi", "tienen pagos en davi plata", "pagos en en fectivo?"],
+            "responses": ["Recivimos todas la trajetas, pagos a nequi al +57 2354687910, pagos daviplata al +57 159736842 con CC 1234567, efectivo ya sea en la tienda fisica, consignacion bancolombia o efecty"]
+        }
+
+    ]
+}
